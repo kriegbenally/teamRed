@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <?php require_once("lib/headutils.php"); ?>
+    <link rel="stylesheet" href="lib/css/contact.css">
   </head>
   <body>
-    <h1>Elegant Contact Form</h1>
+    <?php require_once("lib/partials/navbar.php");?>
+    <h1>Contact</h1>
     <form class="cf">
       <div class="half left cf">
         <input type="text" id="input-name" placeholder="Name">
